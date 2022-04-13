@@ -1,0 +1,147 @@
+/* Carmine: 91171F
+   Dark Sienna: 410B13
+
+   GRADIENTS
+
+   #FF512F
+   #F09819
+*/
+
+html{
+    font-family: 'Inconsolata', monospace;
+
+}
+
+th{
+    font-family: 'Nunito', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.img{
+    max-width: 100%;
+}
+
+a:hover{
+    opacity: 0.2;
+}
+
+.tittle{
+text-transform: uppercase;
+text-align: center;
+}
+
+.container{
+
+  background-color:#ff512f;
+  background: -webkit-linear-gradient(to right, #ff512f, #f09819);
+  background: linear-gradient(to right, #ff512f, #f09819);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content{
+    max-width: 960px;
+    max-height: 600px;
+    width: 100%;
+    height: 80vh;
+    padding: 1.8em;
+    background-color: #FFE0B2;
+    /* box-shadow: diferenciaHorizontal  diferenciaVertical  desenfoque amplitud de color;*/
+    box-shadow: 10px 3px 6px 5px #91171F;
+    border-radius: 4px;
+    position: relative;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.actions{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+.close{
+    height: 40px;
+    width: 40px;
+    color: #91171F;
+    border-radius: 50%;
+    background-color: #BDBDBD;
+    display: inline-block;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    font-weight: 300;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.fa-star, .far fa-star-o{
+    color:#ff512f;
+}
+
+.paragraph{
+    line-height: 1.8em;
+    font-weight: 200;
+}
+
+.table
+{
+    width: 100%;
+}
+
+.table td, .table th
+{
+  padding: 1em;
+  text-align: left;
+}
+
+.table tr:nth-child(2) {background-color: #BDBDBD;}
+.table tr:nth-child(4) {background-color: #BDBDBD;}
+
+
+.title-item{
+    border-bottom: solid 2px #91171F ;
+    padding-bottom: 1em;
+    padding-top: 2em; 
+}
+
+.adress{
+    font-weight: bold;
+    color: #91171F;
+    margin-top: 1em;
+    display: inline-block
+}
+
+.main-image{
+    float: left;
+    margin-right: 1em;
+    height: 220px;
+}
+
+.position{
+    background-color: #91171F;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-right: 0.5em;
+}
+
+@media (max-width:450px){
+
+    .content{
+        padding: 1em;
+        }
+
+@media (min-height:600px){
+    .content{
+    height: 1.8em;
+    }
+}
+    }
